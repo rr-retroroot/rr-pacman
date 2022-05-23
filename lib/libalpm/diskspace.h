@@ -32,6 +32,10 @@
 
 #include "alpm.h"
 
+#ifdef __RETROROOT__
+#define FSSTATSTYPE struct statvfs
+#endif
+
 enum mount_used_level {
 	USED_REMOVE = 1,
 	USED_INSTALL = (1 << 1),
