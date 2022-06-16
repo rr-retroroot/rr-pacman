@@ -32,7 +32,7 @@
 
 #include "alpm.h"
 
-#ifdef __RETROROOT__
+#ifdef __RETROROOT_PACMAN__
 #define FSSTATSTYPE struct statvfs
 #endif
 

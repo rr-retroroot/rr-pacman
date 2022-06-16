@@ -1084,7 +1084,7 @@ static void cl_to_log(int argc, char *argv[])
  * @param argv
  * @return A return code indicating success, failure, etc.
  */
-#ifdef __RETROROOT__
+#ifdef __RETROROOT_PACMAN__
 int pacmain(int argc, char *argv[])
 #else
 int main(int argc, char *argv[])

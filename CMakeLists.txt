@@ -24,7 +24,7 @@ set(INCLUDES
         )
 
 set(CFLAGS
-        -D__RETROROOT__
+        -D__RETROROOT_PACMAN__
         -DCACHEDIR="/opt/pacbrew/pacman/var/cache/pacman/pkg/"
         -DCONFFILE="/opt/pacbrew/pacman/etc/pacman.conf"
         -DDBPATH="/opt/pacbrew/pacman/var/lib/pacman/"
