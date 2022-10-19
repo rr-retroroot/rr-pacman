@@ -303,7 +303,9 @@ static void cleanup(int ret)
 	/* free memory */
 	FREELIST(pm_targets);
 	console_cursor_show();
+#ifndef __RETROROOT_PACMAN__
 	exit(ret);
+#endif
 }
 
 static void invalid_opt(int used, const char *opt1, const char *opt2)
